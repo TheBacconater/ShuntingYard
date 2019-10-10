@@ -290,7 +290,7 @@ public class Main {
              else
              {
                 if(inputChar == '*')
-                {
+                { //Something wonky here
                     int first = Character.getNumericValue((char)stack.pop());
                     System.out.println("Type: " + stack.pop().getClass());
                     Character temp = (Character) stack.pop();
